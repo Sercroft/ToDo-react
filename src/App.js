@@ -4,7 +4,7 @@ import Home from './components/Home';
  
 function App() {
   return(
-    <Router>
+    <Router basename="/ToDo-react">
         <Routes>
             <Route path='/' element={<Login />}></Route>
             <Route path='profile' element={<Home />}></Route>
