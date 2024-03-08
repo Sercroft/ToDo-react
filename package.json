@@ -2,6 +2,7 @@
   "name": "to-do_list",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sercroft.github.io/ToDo-react/build",
   "dependencies": {
     "@auth0/auth0-react": "^2.2.4",
     "@testing-library/jest-dom": "^5.17.0",
