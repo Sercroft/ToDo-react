@@ -82,7 +82,7 @@ const LogoutButton = () => {
     
     const { logout } = useAuth0();
     
-    return <Button onClick={() => logout({ returnTo: 'https://sercroft.github.io/ToDo-react/callback'})}>Logout!</Button>
+    return <Button onClick={() => logout({ returnTo: 'https://sercroft.github.io/ToDo-react/'})}>Logout!</Button>
 }
 
 export default LogoutButton;
