@@ -11,7 +11,7 @@ root.render(
     <Auth0Provider 
       domain='dev-e3upsaqvftbfdnmj.us.auth0.com' 
       clientId='vtNsolUslDLuaSu00JH9SEIZkZVghqfF'
-      authorizationParams={{ redirect_uri: window.location.origin }}
+      authorizationParams={{ redirect_uri: 'https://sercroft.github.io/ToDo-react/' }}
     >
       <App />
     </Auth0Provider>
